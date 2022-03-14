@@ -73,4 +73,4 @@ Returns all beers with ABV between **minABV** and **maxABV** parameters
 👤 **Yannick Vindevoghel**
 
 * Github: [@Vindevoghel](https://github.com/Vindevoghel)
-* LinkedIn: [@vindevohel](https://linkedin.com/in/vindevohel)
+* LinkedIn: [@vindevoghel](https://linkedin.com/in/vindevoghel)
