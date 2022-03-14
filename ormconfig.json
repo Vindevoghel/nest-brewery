@@ -6,7 +6,7 @@
    "username": "yannick",
    "password": "lalala",
    "database": "angularbrewery",
-   "synchronize": true,
+   "synchronize": false,
    "logging": false,
    "entities": [
       "**/*.entity.js",

@@ -1,6 +1,7 @@
 import { Module } from '@nestjs/common';
-import { BeerController } from './beer.controller';
 import { TypeOrmModule } from '@nestjs/typeorm';
+
+import { BeerController } from './beer.controller';
 import { Beer } from './beer.entity'
 import { BeerService } from './beer.service';
 

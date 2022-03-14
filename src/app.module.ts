@@ -1,9 +1,9 @@
 import { Module } from '@nestjs/common';
 import { TypeOrmModule } from '@nestjs/typeorm';
+
 import { AppController } from './app.controller';
 import { AppService } from './app.service';
-import { BeerModule } from './beer/beer.module';
-
+import { BeerModule } from './beer/beer.module'
 
 @Module({
   imports: [
@@ -13,4 +13,4 @@ import { BeerModule } from './beer/beer.module';
   controllers: [AppController],
   providers: [AppService],
 })
-export class AppModule { }
+export class AppModule {}
