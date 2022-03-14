@@ -7,9 +7,10 @@ export class BeerController {
     constructor(private beerService: BeerService) { }
 
     /**
-         * 
-         * @returns Array of all available beers
-         */
+     * 
+     * 
+     * @returns Array of all available beers
+     */
     @Get('/get')
     findAll(): Promise<BeerDto[]> {
         return this.beerService.findAll();
