@@ -5,6 +5,12 @@
 
 > API for a brewery to keep track of Beers
 
+## Pre Install
+
+```sh
+Edit the ormconfig.json file to reflect which database you will use. I used postgres and it worked great.
+```
+
 ## Install
 
 ```sh
@@ -26,28 +32,40 @@ npm run test
 ## API Endpoints
 
 ### GET
+
 **/**
+
 Redirects to Swagger documentation
 
 ### GET
+
 **/api**
+
 Swagger documentation
 
 ### GET
+
 **/get**
+
 Returns all beers in the database
 
 ### POST
+
 **/post**
+
 Creates a new beer with mandatory parameters **beerName** and **ABV**
 
 ### GET
+
 **/get/ABV=:ABV**
+
 Returns all beers with the specific **ABV** passed as parameter
 
 ### GET
+
 **/get/minABV=:minABV&maxABV=:maxABV**
-Returns all beers with ABV between **minAABV** and **maxABV** parameters
+
+Returns all beers with ABV between **minABV** and **maxABV** parameters
 
 
 ## Author
