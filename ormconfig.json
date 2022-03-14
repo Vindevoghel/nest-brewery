@@ -1,0 +1,18 @@
+
+{
+   "type": "postgres",
+   "host": "localhost",
+   "port": 5432,
+   "username": "yannick",
+   "password": "lalala",
+   "database": "angularbrewery",
+   "synchronize": true,
+   "logging": false,
+   "entities": [
+      "**/*.entity.js",
+      "src/**/*.entity.js"
+    ],
+    "migrations": [
+       "src/migration/*.js"
+    ]
+}
