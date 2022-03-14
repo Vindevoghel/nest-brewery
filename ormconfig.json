@@ -2,9 +2,9 @@
    "type": "postgres",
    "host": "localhost",
    "port": 5432,
-   "username": "yannick",
-   "password": "lalala",
-   "database": "angularbrewery",
+   "username": "ADDYOUROWNUSERNAMEHERE",
+   "password": "ADDYOUROWNPASSWORDHERE",
+   "database": "ADDYOUROWNDATABASENAMEHERE",
    "synchronize": false,
    "logging": false,
    "entities": [
