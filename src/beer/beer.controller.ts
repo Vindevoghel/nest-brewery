@@ -2,7 +2,7 @@ import { Controller, Get, Post, Put, Delete, Body, Param } from '@nestjs/common'
 import { BeerService } from './beer.service';
 import { BeerDto } from './beer.dto';
 
-@Controller('api')
+@Controller()
 export class BeerController {
     constructor(private beerService: BeerService) { }
 
@@ -22,7 +22,7 @@ export class BeerController {
      * @param beer 
      * @returns creates new beer
      */
-    @Post('/create')
+    @Post('/post')
     create(@Body() beer: BeerDto): Promise<BeerDto> {
         return this.beerService.create(beer)
     }
