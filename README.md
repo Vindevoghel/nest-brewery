@@ -23,6 +23,33 @@ npm run start
 npm run test
 ```
 
+## API Endpoints
+
+### GET
+**/**
+Redirects to Swagger documentation
+
+### GET
+**/api**
+Swagger documentation
+
+### GET
+**/get**
+Returns all beers in the database
+
+### POST
+**/post**
+Creates a new beer with mandatory parameters **beerName** and **ABV**
+
+### GET
+**/get/ABV=:ABV**
+Returns all beers with the specific **ABV** passed as parameter
+
+### GET
+**/get/minABV=:minABV&maxABV=:maxABV**
+Returns all beers with ABV between **minAABV** and **maxABV** parameters
+
+
 ## Author
 
 👤 **Yannick Vindevoghel**
